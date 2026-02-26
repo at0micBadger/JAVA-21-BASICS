@@ -54,7 +54,7 @@ public class SmoothOps {
     System.out.println("\ttax rate: \t\t\t\t" + taxRate);
     System.out.println("\tquantity: \t\t\t\t" + quantity);
 
-     System.out.println("");
+    System.out.println("");
 
     BigDecimal tax   = itemPrice.multiply(taxRate).setScale(2, RoundingMode.HALF_UP);
     BigDecimal total = itemPrice.multiply(quantity).add(tax).setScale(2, RoundingMode.HALF_UP);
@@ -75,7 +75,7 @@ public class SmoothOps {
     BigDecimal addedPrice = price.add(operand);
     System.out.println("\tAdded price: \t\t\t\t" + addedPrice);
 
-        // Subtraction
+    // Subtraction
     BigDecimal subtractedPrice = price.subtract(operand);
     System.out.println("\tSubtracted price: \t\t\t" + subtractedPrice);
 
