@@ -6,9 +6,13 @@ public class RelOps {
         int b = 20;
         int c = 10;
 
-        System.out.println("===========================================");
-        System.out.println("   Relational Operators Demo — Java 21");
-        System.out.println("===========================================");
+        System.out.println("");
+        System.out.println("START PROGRAM.");
+        System.out.println("");
+
+        System.out.println("");
+        System.out.println("RELATIONAL OPERATORS DEMO - JAVA 21:");
+        System.out.println("");
         System.out.printf("  Values:  a = %d,  b = %d,  c = %d%n%n", a, b, c);
 
         // 1. Equal to (==)
@@ -44,12 +48,12 @@ public class RelOps {
         System.out.printf("  b <= a  →  %d <= %d  →  %b%n%n", b, a, b <= a);
 
         // Practical example: using relational operators in conditions
-        System.out.println("===========================================");
-        System.out.println("   Practical Usage in Conditions");
-        System.out.println("===========================================");
+        System.out.println("");
+        System.out.println("Practical Usage in Conditions:");
+        System.out.println("");
 
         int score = 75;
-        System.out.println("  Student score: " + score);
+        System.out.println("Student score: " + score);
 
         if (score >= 90) {
             System.out.println("  Grade: A");
@@ -65,19 +69,20 @@ public class RelOps {
 
         // Stable Java 21 approach: if/else chain assigned to a String variable
         System.out.println();
-        System.out.println("  Grade with Label (stable Java 21):");
+        System.out.println("Grade with Label (stable Java 21):");
         String grade;
         if      (score >= 90) grade = "A — Excellent";
         else if (score >= 80) grade = "B — Good";
         else if (score >= 70) grade = "C — Average";
         else if (score >= 60) grade = "D — Below Average";
         else                  grade = "F — Failing";
-        System.out.println("  Score " + score + " → " + grade);
+        System.out.println("Score " + score + " → " + grade);
 
         System.out.println();
-        System.out.println("===========================================");
-        System.out.println("   Summary Table");
-        System.out.println("===========================================");
+        System.out.println("");
+        System.out.println("Summary Table");
+        System.out.println("");
+        
         System.out.printf("  %-10s %-20s %-10s%n", "Operator", "Meaning", "Example (a=10,b=20)");
         System.out.println("  " + "-".repeat(42));
         System.out.printf("  %-10s %-20s %-10b%n", "==",  "Equal to",                  a == b);
@@ -86,5 +91,11 @@ public class RelOps {
         System.out.printf("  %-10s %-20s %-10b%n", "<",   "Less than",                 a < b);
         System.out.printf("  %-10s %-20s %-10b%n", ">=",  "Greater than or equal to",  a >= b);
         System.out.printf("  %-10s %-20s %-10b%n", "<=",  "Less than or equal to",     a <= b);
+
+        System.out.println("");
+        System.out.println("END PROGRAM.");
+        System.out.println("");
+
+
     }
 }
